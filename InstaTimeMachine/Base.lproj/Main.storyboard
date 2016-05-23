@@ -66,44 +66,11 @@
                     <navigationItem key="navigationItem" title="InstaTimeMachine" id="OnL-ws-5ky"/>
                     <connections>
                         <outlet property="collectionView" destination="59l-8y-lXo" id="oow-LP-YXW"/>
-                        <segue destination="AI7-6u-tpE" kind="show" identifier="showImage" id="2dS-Yb-LaO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1192" y="294"/>
-        </scene>
-        <!--Photo Detail View Controller-->
-        <scene sceneID="Uta-97-yzz">
-            <objects>
-                <viewController id="AI7-6u-tpE" customClass="PhotoDetailViewController" customModule="InstaTimeMachine" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="hPS-5t-d40"/>
-                        <viewControllerLayoutGuide type="bottom" id="8eb-iZ-0q6"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="1jg-hh-9ug">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ab9-LB-VCW">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="ab9-LB-VCW" firstAttribute="top" secondItem="1jg-hh-9ug" secondAttribute="top" id="8wq-3S-8hJ"/>
-                            <constraint firstItem="ab9-LB-VCW" firstAttribute="bottom" secondItem="8eb-iZ-0q6" secondAttribute="top" id="JLU-vx-shY"/>
-                            <constraint firstAttribute="trailing" secondItem="ab9-LB-VCW" secondAttribute="trailing" id="XFG-UV-2cH"/>
-                            <constraint firstItem="ab9-LB-VCW" firstAttribute="leading" secondItem="1jg-hh-9ug" secondAttribute="leading" id="pK2-C4-IFK"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="imageView" destination="ab9-LB-VCW" id="ZWZ-uD-Oly"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="y5A-AY-Pb6" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1953" y="294"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="U5x-Fm-4vY">

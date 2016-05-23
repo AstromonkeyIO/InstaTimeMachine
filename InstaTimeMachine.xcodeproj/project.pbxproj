@@ -15,7 +15,6 @@
 		66376CC61CEACBF5005848E9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66376CC41CEACBF5005848E9 /* LaunchScreen.xib */; };
 		66376CD21CEACBF6005848E9 /* InstaTimeMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66376CD11CEACBF6005848E9 /* InstaTimeMachineTests.swift */; };
 		66376CDC1CEAD0AB005848E9 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66376CDB1CEAD0AB005848E9 /* CollectionViewCell.swift */; };
-		66376CDE1CEAD0F0005848E9 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66376CDD1CEAD0F0005848E9 /* PhotoDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +40,6 @@
 		66376CD01CEACBF6005848E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66376CD11CEACBF6005848E9 /* InstaTimeMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaTimeMachineTests.swift; sourceTree = "<group>"; };
 		66376CDB1CEAD0AB005848E9 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
-		66376CDD1CEAD0F0005848E9 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +85,6 @@
 				66376CBD1CEACBF5005848E9 /* ViewController.swift */,
 				66376CBF1CEACBF5005848E9 /* Main.storyboard */,
 				66376CDB1CEAD0AB005848E9 /* CollectionViewCell.swift */,
-				66376CDD1CEAD0F0005848E9 /* PhotoDetailViewController.swift */,
 				66376CC21CEACBF5005848E9 /* Images.xcassets */,
 				66376CC41CEACBF5005848E9 /* LaunchScreen.xib */,
 				66376CBA1CEACBF5005848E9 /* InstaTimeMachine.xcdatamodeld */,
@@ -224,7 +221,6 @@
 				66376CBE1CEACBF5005848E9 /* ViewController.swift in Sources */,
 				66376CBC1CEACBF5005848E9 /* InstaTimeMachine.xcdatamodeld in Sources */,
 				66376CDC1CEAD0AB005848E9 /* CollectionViewCell.swift in Sources */,
-				66376CDE1CEAD0F0005848E9 /* PhotoDetailViewController.swift in Sources */,
 				66376CB91CEACBF5005848E9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +417,7 @@
 				66376CD71CEACBF6005848E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66376CD81CEACBF6005848E9 /* Build configuration list for PBXNativeTarget "InstaTimeMachineTests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +426,7 @@
 				66376CDA1CEACBF6005848E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

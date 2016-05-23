@@ -50,7 +50,6 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
-        print(self.photos.count)
         return self.photos.count
     }
     
@@ -60,40 +59,6 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
         return cell
     }
-    
-    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath)
-    {
-        NSLog("Pressed Cell")
-        
-        if(indexPath.item == 0)
-        {
-            //self.navigationController?.popToViewController(profileViewController, animated: true)
-        }
-        
-    }
-    /*
-    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-        
-        print("here")
-        
-        
-        self.performSegueWithIdentifier("showImage", sender: self)
-    }
-    */
-    
-    /*
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "showImage" {
-            let indexPaths = self.collectionView!.indexPathsForSelectedItems()
-            let indexPath = indexPaths[0] as! NSIndexPath
-            
-            let vc = segue.destinationViewController as! PhotoDetailViewController
-            
-            vc.image = self.imageArray[indexPath.row]!
-            vc.title = self.appleProducts[indexPath.row]
-            
-        }
-    }
-    */
+
 }
 
